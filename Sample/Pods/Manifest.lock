@@ -1,0 +1,16 @@
+PODS:
+  - Dawn (2.0.0)
+
+DEPENDENCIES:
+  - Dawn (from `../`)
+
+EXTERNAL SOURCES:
+  Dawn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Dawn: 9606370f809d8023cb937dd37e26c04de4159667
+
+PODFILE CHECKSUM: d68b8c948d16e283c5d942a0bdaf0144debe6f9d
+
+COCOAPODS: 1.5.2

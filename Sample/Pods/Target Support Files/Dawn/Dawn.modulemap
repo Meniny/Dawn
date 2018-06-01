@@ -1,0 +1,6 @@
+framework module Dawn {
+  umbrella header "Dawn-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TimePeriodCollection Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TimePeriodCollection" class="dashAnchor"></a>
+    <a title="TimePeriodCollection Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Dawn Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Dawn Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TimePeriodCollection Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriod.html">TimePeriod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodChain.html">TimePeriodChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodCollection.html">TimePeriodCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoFormat.html">DateAgoFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoUnit.html">DateAgoUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateCountingUnit.html">DateCountingUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DawnDateComponent.html">DawnDateComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SecondsConstant.html">SecondsConstant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimeCalculatingOperation.html">TimeCalculatingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodAnchor.html">TimePeriodAnchor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodInterval.html">TimePeriodInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodRelation.html">TimePeriodRelation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodSize.html">TimePeriodSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WeekdayName.html">WeekdayName</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar.html">Calendar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/DateCalculatingOperationType.html">– DateCalculatingOperationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/Component.html">– Component</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA10TimePeriodC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA15TimePeriodChainC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA20TimePeriodCollectionC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA10TimePeriodC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA15TimePeriodChainC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA20TimePeriodCollectionC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn0A16LocalizedStringsS2SF">DawnLocalizedStrings(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TimePeriodGroup.html">TimePeriodGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Dawn.html">Dawn</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TimePeriodCollection</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">TimePeriodCollection</span><span class="p">:</span> <span class="kt"><a href="../Protocols/TimePeriodGroup.html">TimePeriodGroup</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC9startDate10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/startDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC9startDate10Foundation0F0VSgvp">startDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The start date of <code>TimePeriodCollection</code> representing the earliest date of TimePeriod objects.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC7endDate10Foundation0F0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/endDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC7endDate10Foundation0F0VSgvp">endDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The end date of <code>TimePeriodCollection</code> representing the latest date of TimePeriod objects.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">endDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn15TimePeriodGroupP7periodsSayAA0bC0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/periods" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn15TimePeriodGroupP7periodsSayAA0bC0CGvp">periods</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">periods</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionCAA0bC0CSicip"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionCAA0bC0CSicip">subscript(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn15TimePeriodGroupP8calendar10Foundation8CalendarVvp"></a>
+                    <a name="//apple_ref/swift/Property/calendar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn15TimePeriodGroupP8calendar10Foundation8CalendarVvp">calendar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionCAC10Foundation8CalendarV8calendar_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(calendar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionCAC10Foundation8CalendarV8calendar_tcfc">init(calendar:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes an instance of <code>TimePeriodCollection</code> using given calendar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span> <span class="o">=</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calendar</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Calendar used for date calculations, defaults to <code>Calendar.current</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC3addyAA0bC0C04timeC0_tF"></a>
+                    <a name="//apple_ref/swift/Method/add(timePeriod:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC3addyAA0bC0C04timeC0_tF">add(timePeriod:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Appends given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> object to <code>TimePeriodCollection</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">timePeriod</span><span class="p">:</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timePeriod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> object that will be added to collection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC6insertyAA0bC0C04timeC0_Si7atIndextF"></a>
+                    <a name="//apple_ref/swift/Method/insert(timePeriod:atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC6insertyAA0bC0C04timeC0_Si7atIndextF">insert(timePeriod:atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Inserts given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> object at given index</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">insert</span><span class="p">(</span><span class="nv">timePeriod</span><span class="p">:</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">,</span> <span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timePeriod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> object that will be inserted to collection</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>index at which object will be inserted</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC6removeAA0bC0CSgSi7atIndex_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC6removeAA0bC0CSgSi7atIndex_tF">remove(atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> at given index from collection</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>index of a <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> object in collection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>Optional(TimePeriod)</code> removed from the chain, <code>nil</code> object is not found</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC20sortByStartAscendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByStartAscending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC20sortByStartAscendingyyF">sortByStartAscending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriodCollection.html#/s:4Dawn20TimePeriodCollectionC9startDate10Foundation0F0VSgvp">startDate</a></code> in ascending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByStartAscending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC21sortByStartDescendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByStartDescending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC21sortByStartDescendingyyF">sortByStartDescending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriodCollection.html#/s:4Dawn20TimePeriodCollectionC9startDate10Foundation0F0VSgvp">startDate</a></code> in descending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByStartDescending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC18sortByEndAscendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByEndAscending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC18sortByEndAscendingyyF">sortByEndAscending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriodCollection.html#/s:4Dawn20TimePeriodCollectionC7endDate10Foundation0F0VSgvp">endDate</a></code> in ascending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByEndAscending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC19sortByEndDescendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByEndDescending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC19sortByEndDescendingyyF">sortByEndDescending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriodCollection.html#/s:4Dawn20TimePeriodCollectionC7endDate10Foundation0F0VSgvp">endDate</a></code> in descending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByEndDescending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC23sortByDurationAscendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByDurationAscending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC23sortByDurationAscendingyyF">sortByDurationAscending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> duration in ascending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByDurationAscending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC24sortByDurationDescendingyyF"></a>
+                    <a name="//apple_ref/swift/Method/sortByDurationDescending()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC24sortByDurationDescendingyyF">sortByDurationDescending()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sorts collection by <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> duration in descending order</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sortByDurationDescending</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC13periodsInsideAcA0bC0C6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/periodsInside(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC13periodsInsideAcA0bC0C6period_tF">periodsInside(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">periodsInside</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimePeriodCollection</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timePeriod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> to check collection against</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>TimePeriodCollection</code> containing <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> objects that are inside of given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC18periodsIntersectedAC10Foundation4DateV02byH0_tF"></a>
+                    <a name="//apple_ref/swift/Method/periodsIntersected(byDate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC18periodsIntersectedAC10Foundation4DateV02byH0_tF">periodsIntersected(byDate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">periodsIntersected</span><span class="p">(</span><span class="n">byDate</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimePeriodCollection</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>date</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>date to check collection against</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>TimePeriodCollection</code> containing <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> objects that intersect given date</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC18periodsIntersectedAcA0bC0C02byC0_tF"></a>
+                    <a name="//apple_ref/swift/Method/periodsIntersected(byPeriod:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC18periodsIntersectedAcA0bC0C02byC0_tF">periodsIntersected(byPeriod:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">periodsIntersected</span><span class="p">(</span><span class="n">byPeriod</span> <span class="nv">period</span><span class="p">:</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimePeriodCollection</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timePeriod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> to match collection against</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>TimePeriodCollection</code> containing <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> objects that intersect given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC17periodsOverlappedAcA0bC0C02byC0_tF"></a>
+                    <a name="//apple_ref/swift/Method/periodsOverlapped(byPeriod:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC17periodsOverlappedAcA0bC0C02byC0_tF">periodsOverlapped(byPeriod:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">periodsOverlapped</span><span class="p">(</span><span class="n">byPeriod</span> <span class="nv">period</span><span class="p">:</span> <span class="kt"><a href="../Classes/TimePeriod.html">TimePeriod</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimePeriodCollection</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>timePeriod</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> to match collection against</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>TimePeriodCollection</code> containing <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code> objects that are overlapped by given <code><a href="../Classes/TimePeriod.html">TimePeriod</a></code>. This covers all space they share, minus instantaneous space (i.e. one&rsquo;s start date equals another&rsquo;s end date)</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC6equalsSbAC_Sb13considerOrdertF"></a>
+                    <a name="//apple_ref/swift/Method/equals(_:considerOrder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC6equalsSbAC_Sb13considerOrdertF">equals(_:considerOrder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Compares given <code>TimePeriodCollection</code> to the receiver and returns whether they are equal. Comparison can be done with order considering or without.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">equals</span><span class="p">(</span><span class="n">_</span> <span class="nv">collection</span><span class="p">:</span> <span class="kt">TimePeriodCollection</span><span class="p">,</span> <span class="nv">considerOrder</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>collection</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriodCollection</code> object to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>considerOrder</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Is order considered during comparison</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true when collections are equal, false otherwise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn20TimePeriodCollectionC4copyACyF"></a>
+                    <a name="//apple_ref/swift/Method/copy()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn20TimePeriodCollectionC4copyACyF">copy()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">copy</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">TimePeriodCollection</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/Meniny/Dawn" target="_blank" rel="external">Elias Abel</a>. All rights reserved. (Last updated: 2018-06-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

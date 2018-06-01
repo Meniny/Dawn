@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dawn Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Dawn" class="dashAnchor"></a>
+    <a title="Dawn Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Dawn Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Dawn Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Dawn Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriod.html">TimePeriod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodChain.html">TimePeriodChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodCollection.html">TimePeriodCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoFormat.html">DateAgoFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoUnit.html">DateAgoUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateCountingUnit.html">DateCountingUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DawnDateComponent.html">DawnDateComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SecondsConstant.html">SecondsConstant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimeCalculatingOperation.html">TimeCalculatingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodAnchor.html">TimePeriodAnchor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodInterval.html">TimePeriodInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodRelation.html">TimePeriodRelation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodSize.html">TimePeriodSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WeekdayName.html">WeekdayName</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar.html">Calendar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/DateCalculatingOperationType.html">– DateCalculatingOperationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/Component.html">– Component</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA10TimePeriodC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA15TimePeriodChainC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA20TimePeriodCollectionC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA10TimePeriodC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA15TimePeriodChainC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA20TimePeriodCollectionC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn0A16LocalizedStringsS2SF">DawnLocalizedStrings(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TimePeriodGroup.html">TimePeriodGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Dawn.html">Dawn</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Dawn</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Dawn</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV8calendar10Foundation8CalendarVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/calendar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV8calendar10Foundation8CalendarVvpZ">calendar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span> <span class="o">=</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV8calendar10Foundation8CalendarVvp"></a>
+                    <a name="//apple_ref/swift/Property/calendar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV8calendar10Foundation8CalendarVvp">calendar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAVAB10Foundation8CalendarV8calendar_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(calendar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAVAB10Foundation8CalendarV8calendar_tcfc">init(calendar:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n"><a href="../Structs/Dawn.html#/s:4DawnAAV8calendar10Foundation8CalendarVvpZ">calendar</a></span> <span class="nv">c</span><span class="p">:</span> <span class="kt">Calendar</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Leap%20Year"></a>
+                <a name="//apple_ref/swift/Section/Leap Year" class="dashAnchor"></a>
+                <a href="#/Leap%20Year">
+                  <h3 class="section-name">Leap Year</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV13checkLeapYearSbSiFZ"></a>
+                    <a name="//apple_ref/swift/Method/checkLeapYear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV13checkLeapYearSbSiFZ">checkLeapYear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">checkLeapYear</span><span class="p">(</span><span class="n">_</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV13checkLeapYearSbSiF"></a>
+                    <a name="//apple_ref/swift/Method/checkLeapYear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV13checkLeapYearSbSiF">checkLeapYear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkLeapYear</span><span class="p">(</span><span class="n">_</span> <span class="nv">year</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Compare"></a>
+                <a name="//apple_ref/swift/Section/Compare" class="dashAnchor"></a>
+                <a href="#/Compare">
+                  <h3 class="section-name">Compare</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEarliertFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEarlier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEarliertFZ">compare(date:ifEarlier:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEarlier</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF22ifEarlierThanOrEqualTotFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEarlierThanOrEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF22ifEarlierThanOrEqualTotFZ">compare(date:ifEarlierThanOrEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEarlierThanOrEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF7ifLatertFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifLater:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF7ifLatertFZ">compare(date:ifLater:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifLater</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF20ifLaterThanOrEqualTotFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifLaterThanOrEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF20ifLaterThanOrEqualTotFZ">compare(date:ifLaterThanOrEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifLaterThanOrEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEqualTotFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEqualTotFZ">compare(date:ifEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF12ifNotEqualTotFZ"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifNotEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF12ifNotEqualTotFZ">compare(date:ifNotEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifNotEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEarliertF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEarlier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEarliertF">compare(date:ifEarlier:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEarlier</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF22ifEarlierThanOrEqualTotF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEarlierThanOrEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF22ifEarlierThanOrEqualTotF">compare(date:ifEarlierThanOrEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEarlierThanOrEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF7ifLatertF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifLater:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF7ifLatertF">compare(date:ifLater:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifLater</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF20ifLaterThanOrEqualTotF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifLaterThanOrEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF20ifLaterThanOrEqualTotF">compare(date:ifLaterThanOrEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifLaterThanOrEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEqualTotF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF9ifEqualTotF">compare(date:ifEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV7compareSb10Foundation4DateV4date_AF12ifNotEqualTotF"></a>
+                    <a name="//apple_ref/swift/Method/compare(date:ifNotEqualTo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV7compareSb10Foundation4DateV4date_AF12ifNotEqualTotF">compare(date:ifNotEqualTo:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">compare</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">ifNotEqualTo</span> <span class="nv">another</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Calculating"></a>
+                <a name="//apple_ref/swift/Section/Calculating" class="dashAnchor"></a>
+                <a href="#/Calculating">
+                  <h3 class="section-name">Calculating</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV6dateBy10Foundation4DateVSgAA24TimeCalculatingOperationO_SiAA0F10PeriodSizeO2ofAF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBy(_:_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV6dateBy10Foundation4DateVSgAA24TimeCalculatingOperationO_SiAA0F10PeriodSizeO2ofAF2totFZ">dateBy(_:_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBy</span><span class="p">(</span><span class="n">_</span> <span class="nv">calculating</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimeCalculatingOperation.html">TimeCalculatingOperation</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV6dateBy10Foundation4DateVSgAA24TimeCalculatingOperationO_SiAA0F10PeriodSizeO2ofAF2totF"></a>
+                    <a name="//apple_ref/swift/Method/dateBy(_:_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV6dateBy10Foundation4DateVSgAA24TimeCalculatingOperationO_SiAA0F10PeriodSizeO2ofAF2totF">dateBy(_:_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dateBy</span><span class="p">(</span><span class="n">_</span> <span class="nv">calculating</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimeCalculatingOperation.html">TimeCalculatingOperation</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Adding%20components%20to%20dates"></a>
+                <a name="//apple_ref/swift/Section/Adding components to dates" class="dashAnchor"></a>
+                <a href="#/Adding%20components%20to%20dates">
+                  <h3 class="section-name">Adding components to dates</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totFZ">dateByAdding(_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totF"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totF">dateByAdding(_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5years_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(years:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5years_AF2totFZ">dateByAdding(years:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">years</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi6months_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(months:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi6months_AF2totFZ">dateByAdding(months:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">months</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5weeks_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(weeks:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5weeks_AF2totFZ">dateByAdding(weeks:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">weeks</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi4days_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(days:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi4days_AF2totFZ">dateByAdding(days:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">days</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5hours_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(hours:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi5hours_AF2totFZ">dateByAdding(hours:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">hours</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi7minutes_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(minutes:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi7minutes_AF2totFZ">dateByAdding(minutes:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">minutes</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi7seconds_AF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateByAdding(seconds:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV12dateByAdding10Foundation4DateVSgSi7seconds_AF2totFZ">dateByAdding(seconds:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateByAdding</span><span class="p">(</span><span class="nv">seconds</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Subtracting%20components%20from%20dates"></a>
+                <a name="//apple_ref/swift/Section/Subtracting components from dates" class="dashAnchor"></a>
+                <a href="#/Subtracting%20components%20from%20dates">
+                  <h3 class="section-name">Subtracting components from dates</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totFZ">dateBySubtracting(_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totF"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(_:of:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi_AA14TimePeriodSizeO2ofAF2totF">dateBySubtracting(_:of:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">of</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5years_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(years:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5years_AF4fromtFZ">dateBySubtracting(years:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">years</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi6months_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(months:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi6months_AF4fromtFZ">dateBySubtracting(months:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">months</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5weeks_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(weeks:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5weeks_AF4fromtFZ">dateBySubtracting(weeks:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">weeks</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi4days_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(days:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi4days_AF4fromtFZ">dateBySubtracting(days:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">days</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5hours_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(hours:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi5hours_AF4fromtFZ">dateBySubtracting(hours:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">hours</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi7minutes_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(minutes:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi7minutes_AF4fromtFZ">dateBySubtracting(minutes:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">minutes</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi7seconds_AF4fromtFZ"></a>
+                    <a name="//apple_ref/swift/Method/dateBySubtracting(seconds:from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV17dateBySubtracting10Foundation4DateVSgSi7seconds_AF4fromtFZ">dateBySubtracting(seconds:from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">dateBySubtracting</span><span class="p">(</span><span class="nv">seconds</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">from</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Counting%20components%20between%20dates"></a>
+                <a name="//apple_ref/swift/Section/Counting components between dates" class="dashAnchor"></a>
+                <a href="#/Counting%20components%20between%20dates">
+                  <h3 class="section-name">Counting components between dates</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV8countingSiSgAA16DateCountingUnitO_10Foundation0C0V4fromAI2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/counting(_:from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV8countingSiSgAA16DateCountingUnitO_10Foundation0C0V4fromAI2totFZ">counting(_:from:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">counting</span><span class="p">(</span><span class="n">_</span> <span class="nv">expected</span><span class="p">:</span> <span class="kt"><a href="../Enums/DateCountingUnit.html">DateCountingUnit</a></span><span class="p">,</span> <span class="n">from</span> <span class="nv">firstDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">to</span> <span class="nv">secondDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV5yearsSiSg10Foundation4DateV4from_AG2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/years(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV5yearsSiSg10Foundation4DateV4from_AG2totFZ">years(from:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">years</span><span class="p">(</span><span class="n">from</span> <span class="nv">firstDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">to</span> <span class="nv">secondDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV6monthsSiSg10Foundation4DateV4from_AG2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/months(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV6monthsSiSg10Foundation4DateV4from_AG2totFZ">months(from:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">months</span><span class="p">(</span><span class="n">from</span> <span class="nv">firstDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">to</span> <span class="nv">secondDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV5weeksSiSg10Foundation4DateV4from_AG2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/weeks(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV5weeksSiSg10Foundation4DateV4from_AG2totFZ">weeks(from:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">weeks</span><span class="p">(</span><span class="n">from</span> <span class="nv">firstDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">to</span> <span class="nv">secondDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4DawnAAV4daysSiSg10Foundation4DateV4from_AG2totFZ"></a>
+                    <a name="//apple_ref/swift/Method/days(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4DawnAAV4daysSiSg10Foundation4DateV4from_AG2totFZ">days(from:to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">days</span><span class="p">(</span><span class="n">from</span> <span class="nv">firstDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">to</span> <span class="nv">secondDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/Meniny/Dawn" target="_blank" rel="external">Elias Abel</a>. All rights reserved. (Last updated: 2018-06-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

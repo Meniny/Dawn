@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TimePeriod Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TimePeriod" class="dashAnchor"></a>
+    <a title="TimePeriod Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Dawn Docs</a> (42% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Dawn Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TimePeriod Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriod.html">TimePeriod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodChain.html">TimePeriodChain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimePeriodCollection.html">TimePeriodCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoFormat.html">DateAgoFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateAgoUnit.html">DateAgoUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DateCountingUnit.html">DateCountingUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DawnDateComponent.html">DawnDateComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SecondsConstant.html">SecondsConstant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimeCalculatingOperation.html">TimeCalculatingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodAnchor.html">TimePeriodAnchor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodInterval.html">TimePeriodInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodRelation.html">TimePeriodRelation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TimePeriodSize.html">TimePeriodSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WeekdayName.html">WeekdayName</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar.html">Calendar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/DateCalculatingOperationType.html">– DateCalculatingOperationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Calendar/Component.html">– Component</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA10TimePeriodC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA15TimePeriodChainC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2neoiSbAA20TimePeriodCollectionC_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA10TimePeriodC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA15TimePeriodChainC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn2eeoiSbAA20TimePeriodCollectionC_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:4Dawn0A16LocalizedStringsS2SF">DawnLocalizedStrings(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TimePeriodGroup.html">TimePeriodGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Dawn.html">Dawn</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TimePeriod</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">TimePeriod</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <a href="#/Properties">
+                  <h3 class="section-name">Properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC9startDate10Foundation0E0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/startDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC9startDate10Foundation0E0Vvp">startDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The start date for a TimePeriod representing the starting boundary of the time period</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC7endDate10Foundation0E0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/endDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC7endDate10Foundation0E0Vvp">endDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The end date for a TimePeriod representing the ending boundary of the time period</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">endDate</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8calendar10Foundation8CalendarVvp"></a>
+                    <a name="//apple_ref/swift/Property/calendar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8calendar10Foundation8CalendarVvp">calendar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calendar used for date calculations</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">let</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializers"></a>
+                <a name="//apple_ref/swift/Section/Initializers" class="dashAnchor"></a>
+                <a href="#/Initializers">
+                  <h3 class="section-name">Initializers</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodCAC10Foundation4DateV05startE0_AF03endE0AD8CalendarV8calendartcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(startDate:endDate:calendar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodCAC10Foundation4DateV05startE0_AF03endE0AD8CalendarV8calendartcfc">init(startDate:endDate:calendar:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes an instance of TimePeriod from a given start and end date</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">endDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span> <span class="o">=</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>startDate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired start date</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endDate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired end date</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calendar</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Calendar used for date calculations, defaults to <code>Calendar.current</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>TimePeriod - new instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodCAcA0bC4SizeO4size_Si6amount10Foundation4DateV10startingAtAH8CalendarV8calendartcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(size:amount:startingAt:calendar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodCAcA0bC4SizeO4size_Si6amount10Foundation4DateV10startingAtAH8CalendarV8calendartcfc">init(size:amount:startingAt:calendar:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a new instance of TimePeriod that starts on the provided start date and is of the size provided. The amount represents a multipler to the size (e.g. <q>2 weeks</q> or <q>4 years</q>)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">startingAt</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span> <span class="o">=</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired size of the new time period</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired multiplier of the size provided</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>date</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired start date of the new time period</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calendar</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Calendar used for date calculations, defaults to <code>Calendar.current</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>TimePeriod - new instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodCAcA0bC4SizeO4size_Si6amount10Foundation4DateV8endingAtAH8CalendarV8calendartcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(size:amount:endingAt:calendar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodCAcA0bC4SizeO4size_Si6amount10Foundation4DateV8endingAtAH8CalendarV8calendartcfc">init(size:amount:endingAt:calendar:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a new instance of TimePeriod that ends on the provided end date
+and is of the size provided. The amount represents a multipler to the size (e.g. <q>2 weeks</q> or <q>4 years</q>)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">endingAt</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">calendar</span><span class="p">:</span> <span class="kt">Calendar</span> <span class="o">=</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired size of the new time period</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired multiplier of the size provided</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>date</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired end date of the new time period</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calendar</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Calendar used for date calculations, defaults to <code>Calendar.current</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>TimePeriod - new instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/TimePeriod%20methods"></a>
+                <a name="//apple_ref/swift/Section/TimePeriod methods" class="dashAnchor"></a>
+                <a href="#/TimePeriod%20methods">
+                  <h3 class="section-name">TimePeriod methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC04timec7WithAllB0ACyFZ"></a>
+                    <a name="//apple_ref/swift/Method/timePeriodWithAllTime()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC04timec7WithAllB0ACyFZ">timePeriodWithAllTime()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a new instance of TimePeriod that represents the largest time period available.
+The start date is in the distant past and the end date is in the distant future.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">timePeriodWithAllTime</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">TimePeriod</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>TimePeriod - new instance</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8isMomentSbyF"></a>
+                    <a name="//apple_ref/swift/Method/isMoment()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8isMomentSbyF">isMoment()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a boolean representing whether the receiver is a <q>moment</q>, that is the start and end dates are the same.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">isMoment</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if receiver is a moment, otherwise false</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Duration%20methods"></a>
+                <a name="//apple_ref/swift/Section/Duration methods" class="dashAnchor"></a>
+                <a href="#/Duration%20methods">
+                  <h3 class="section-name">Duration methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC10durationInSiAA0bC4SizeO4size_tF"></a>
+                    <a name="//apple_ref/swift/Method/durationIn(size:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC10durationInSiAA0bC4SizeO4size_tF">durationIn(size:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">durationIn</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in given <code><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC15durationInYearsSivp"></a>
+                    <a name="//apple_ref/swift/Property/durationInYears" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC15durationInYearsSivp">durationInYears</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInYears</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in years</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC16durationInMonthsSivp"></a>
+                    <a name="//apple_ref/swift/Property/durationInMonths" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC16durationInMonthsSivp">durationInMonths</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInMonths</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in months</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC15durationInWeeksSivp"></a>
+                    <a name="//apple_ref/swift/Property/durationInWeeks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC15durationInWeeksSivp">durationInWeeks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInWeeks</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in weeks</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC14durationInDaysSivp"></a>
+                    <a name="//apple_ref/swift/Property/durationInDays" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC14durationInDaysSivp">durationInDays</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInDays</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in days</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC15durationInHoursSdvp"></a>
+                    <a name="//apple_ref/swift/Property/durationInHours" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC15durationInHoursSdvp">durationInHours</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInHours</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in hours</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC17durationInMinutesSdvp"></a>
+                    <a name="//apple_ref/swift/Property/durationInMinutes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC17durationInMinutesSdvp">durationInMinutes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInMinutes</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in minutes</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC17durationInSecondsSdvp"></a>
+                    <a name="//apple_ref/swift/Property/durationInSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC17durationInSecondsSdvp">durationInSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">durationInSeconds</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>duration of the receiver in seconds</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Relationship%20methods"></a>
+                <a name="//apple_ref/swift/Section/Relationship methods" class="dashAnchor"></a>
+                <a href="#/Relationship%20methods">
+                  <h3 class="section-name">Relationship methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC6equalsSbACF"></a>
+                    <a name="//apple_ref/swift/Method/equals(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC6equalsSbACF">equals(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>Bool</code> representing whether the receiver&rsquo;s start and end dates exatcly match a given time period</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">equals</span><span class="p">(</span><span class="n">_</span> <span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> if the two periods are the same, otherwise <code>false</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8isInsideSbAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/isInside(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8isInsideSbAC6period_tF">isInside(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>Bool</code> representing whether the receiver&rsquo;s start and end dates exatcly match a given time period or is contained within them</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">isInside</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> if the receiver is inside the given time period, otherwise <code>false</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8containsSbAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/contains(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8containsSbAC6period_tF">contains(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>Bool</code> representing whether the given time period&rsquo;s start and end dates exatcly match the receivers&rsquo; or is contained within them</p>
+
+<ul>
+<li><p>BOOL</p></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">contains</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC12overlapsWithSbAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/overlapsWith(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC12overlapsWithSbAC6period_tF">overlapsWith(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>Bool</code> representing whether the receiver and the given time period overlap.
+This covers all space they share, minus instantaneous space (i.e. one&rsquo;s start date equals another&rsquo;s end date)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">overlapsWith</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns <code>true</code> if they overlap, otherwise <code>false</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC10intersectsSbAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/intersects(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC10intersectsSbAC6period_tF">intersects(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>Bool</code> representing whether the receiver and the given time period overlap.
+This covers all space they share, including instantaneous space (i.e. one&rsquo;s start date equals another&rsquo;s end date)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">intersects</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns <code>true</code> if they intersect, otherwise <code>false</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC10relationToAA0bC8RelationOAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/relationTo(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC10relationToAA0bC8RelationOAC6period_tF">relationTo(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">relationTo</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/TimePeriodRelation.html">TimePeriodRelation</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compare to receiver</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the relationship of the receiver to a given <code>TimePeriod</code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC10gapBetweenSdAC6period_tF"></a>
+                    <a name="//apple_ref/swift/Method/gapBetween(period:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC10gapBetweenSdAC6period_tF">gapBetween(period:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">gapBetween</span><span class="p">(</span><span class="nv">period</span><span class="p">:</span> <span class="kt">TimePeriod</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>period</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>TimePeriod</code> to compute the gap</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>the gap in seconds between the receiver and provided time period. Returns 0 if the time periods intersect, otherwise returns the gap between.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8containsSb10Foundation4DateV4date_AA0bC8IntervalO8intervaltF"></a>
+                    <a name="//apple_ref/swift/Method/contains(date:interval:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8containsSb10Foundation4DateV4date_AA0bC8IntervalO8intervaltF">contains(date:interval:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">contains</span><span class="p">(</span><span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">interval</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodInterval.html">TimePeriodInterval</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>date</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Date to evaluate</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>interval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>TimePeriodInterval representing evaluation type (Closed includes StartDate and EndDate in evaluation, Open does not)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>Bool</code> representing whether the provided date is contained in the receiver.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Mutating%20methods"></a>
+                <a name="//apple_ref/swift/Section/Mutating methods" class="dashAnchor"></a>
+                <a href="#/Mutating%20methods">
+                  <h3 class="section-name">Mutating methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC12shiftEarlieryAA0bC4SizeO04withF0_Si6amounttF"></a>
+                    <a name="//apple_ref/swift/Method/shiftEarlier(withSize:amount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC12shiftEarlieryAA0bC4SizeO04withF0_Si6amounttF">shiftEarlier(withSize:amount:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shifts the <code><a href="../Classes/TimePeriod.html#/s:4Dawn10TimePeriodC9startDate10Foundation0E0Vvp">startDate</a></code> and <code><a href="../Classes/TimePeriod.html#/s:4Dawn10TimePeriodC7endDate10Foundation0E0Vvp">endDate</a></code> earlier by a given size amount. Amount multiplies size.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">shiftEarlier</span><span class="p">(</span><span class="n">withSize</span> <span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired shift size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Multiplier of size (i.e. <q>2 weeks</q> or <q>4 years</q>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC10shiftLateryAA0bC4SizeO04withF0_Si6amounttF"></a>
+                    <a name="//apple_ref/swift/Method/shiftLater(withSize:amount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC10shiftLateryAA0bC4SizeO04withF0_Si6amounttF">shiftLater(withSize:amount:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shifts the <code><a href="../Classes/TimePeriod.html#/s:4Dawn10TimePeriodC9startDate10Foundation0E0Vvp">startDate</a></code> and <code><a href="../Classes/TimePeriod.html#/s:4Dawn10TimePeriodC7endDate10Foundation0E0Vvp">endDate</a></code> later by a given size amount. Amount multiplies size.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">shiftLater</span><span class="p">(</span><span class="n">withSize</span> <span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired shift size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Multiplier of size (i.e. <q>2 weeks</q> or <q>4 years</q>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC8lengthenyAA0bC6AnchorO04withE0_AA0bC4SizeO4sizeSi6amounttF"></a>
+                    <a name="//apple_ref/swift/Method/lengthen(withAnchor:size:amount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC8lengthenyAA0bC6AnchorO04withE0_AA0bC4SizeO4sizeSi6amounttF">lengthen(withAnchor:size:amount:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lengthens the receiver by a given amount, anchored by a provided point. Amount multiplies size.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">lengthen</span><span class="p">(</span><span class="n">withAnchor</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodAnchor.html">TimePeriodAnchor</a></span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Anchor point for the lengthen (the date that stays the same)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired lenghtening size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Multiplier of size (i.e. <q>2 weeks</q> or <q>4 years</q>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC7shortenyAA0bC6AnchorO04withE0_AA0bC4SizeO4sizeSi6amounttF"></a>
+                    <a name="//apple_ref/swift/Method/shorten(withAnchor:size:amount:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC7shortenyAA0bC6AnchorO04withE0_AA0bC4SizeO4sizeSi6amounttF">shorten(withAnchor:size:amount:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shortens the receiver by a given amount, anchored by a provided point. Amount multiplies size.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">shorten</span><span class="p">(</span><span class="n">withAnchor</span> <span class="nv">anchor</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodAnchor.html">TimePeriodAnchor</a></span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="kt"><a href="../Enums/TimePeriodSize.html">TimePeriodSize</a></span><span class="p">,</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>anchor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Anchor point for the shorten (the date that stays the same)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Desired shortening size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Multiplier of size (i.e. <q>2 weeks</q> or <q>4 years</q>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:4Dawn10TimePeriodC4copyACyF"></a>
+                    <a name="//apple_ref/swift/Method/copy()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Dawn10TimePeriodC4copyACyF">copy()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">copy</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">TimePeriod</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/Meniny/Dawn" target="_blank" rel="external">Elias Abel</a>. All rights reserved. (Last updated: 2018-06-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
